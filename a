@@ -27,8 +27,7 @@ local Window = Library:CreateWindow({
     Movement = Window:AddTab('Movement'),
     Misc = Window:AddTab('Misc'),
     Teleport = Window:AddTab('Teleport'),
-    D = Window:AddTab('D'),
-    ['UI Settings'] = Window:AddTab('UI Settings'),  -- This is fine with proper syntax
+      -- This is fine with proper syntax
     }
 
 LeftGroupBox = Tabs.Main:AddLeftGroupbox('Aimlock')
